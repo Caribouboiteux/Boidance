@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2654306664514940857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4692232667088618908}
+  - component: {fileID: 467541866839117064}
+  - component: {fileID: 8825336398492823428}
+  m_Layer: 0
+  m_Name: Flock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4692232667088618908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654306664514940857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &467541866839117064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654306664514940857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640e9e455491c454280c6797bacf194c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentPrefab: {fileID: 4649401938146066510, guid: ea4a6ac0ff584b5409c2ffd0ac860d2a,
+    type: 3}
+  saveSystem: {fileID: 0}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  head: {fileID: 0}
+  matchSpeedController: {fileID: 0}
+  pointToFollow: {fileID: 0}
+  startingCount: 98
+  agentSize: 0.045
+  driveFactor: 10
+  maxSpeed: 1.5
+  neighborRadius: 0.05
+  avoidanceRadiusMultiplier: 1
+  obstacleLength: 0.3
+--- !u!114 &8825336398492823428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654306664514940857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b76f3c81b40b3d40b5dbb12eebc7540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicFolder: {fileID: 0}
+  folder_path: 
+  RandomStartRange: 0.5
+  BaseVolume: 1
+  RandomVolumeRange: 0.5
+  BasePitch: 1
+  RandomPitchRange: 0.5
+  BaseSpatialBend: 1
+  RandomSpatialBendRange: 0.5
+  BaseDopplerEffect: 0
+  RandomDopplerEffectRange: 1
+  sounds: []

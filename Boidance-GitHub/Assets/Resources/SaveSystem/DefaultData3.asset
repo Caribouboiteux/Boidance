@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94310db4a0391fa479faeb6b7256409d, type: 3}
+  m_Name: DefaultData3
+  m_EditorClassIdentifier: 
+  dataName: Cecilia setup
+  compositeBehavior: {fileID: 11400000, guid: 0a69ad669bb932f49bd195c4bae0e46f, type: 2}
+  behaviorsName:
+  - Alignment
+  - Avoidance
+  - SteeredCohesion
+  - StayInRadius
+  - FollowLeftHand
+  weigth:
+  - 1
+  - 10
+  - 5
+  - 0.6
+  - 0.1
+  behaviorInteractionsData: []
+  compositeGene: {fileID: 11400000, guid: c3dde260eff7f1d41831958aa7eb6008, type: 2}
+  genesName:
+  - ColorComplementary
+  genesInteractions: []
+  vRInteractionsData: []
+  vRInteractions: []
+  scale: 0.045
+  maxSpeed: 1.5
+  sightRadius: 0.03
+  followRight: 0
+  followLeft: 0
+  followHead: 0
+  meanColor: {r: 1, g: 0.99247026, b: 0, a: 1}
+  matchWheel: 0
+  matchShape: 0
+  matchSize: 0
+  triggerRight: 0
+  triggerLeft: 0

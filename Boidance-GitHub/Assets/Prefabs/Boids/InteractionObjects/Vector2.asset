@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281860b5bc0ef574a8a7285de2011055, type: 3}
+  m_Name: Vector2
+  m_EditorClassIdentifier: 
+  deviceCharacteristics: 576
+  regexName: UnityEngine.Vector2
+  debugValue: {x: 0, y: 0}
+  maskVector: {x: 1, y: 1, z: 1, w: 1}
+  valueFields:
+  - primary2DAxis
+  - secondary2DAxis
+  - dPad
+  propIndex: 1

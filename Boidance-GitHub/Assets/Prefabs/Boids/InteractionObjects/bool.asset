@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78e51ddcabf96d4eac34e960c92f695, type: 3}
+  m_Name: bool
+  m_EditorClassIdentifier: 
+  deviceCharacteristics: 68
+  regexName: System.Boolean
+  debugValue: 0
+  maskVector: {x: 1, y: 1, z: 1, w: 1}
+  valueFields:
+  - isTracked
+  - primaryButton
+  - primaryTouch
+  - secondaryButton
+  - secondaryTouch
+  - gripButton
+  - triggerButton
+  - menuButton
+  - primary2DAxisClick
+  - primary2DAxisTouch
+  - secondary2DAxisClick
+  - secondary2DAxisTouch
+  - userPresence
+  - thumbrest
+  propIndex: 6

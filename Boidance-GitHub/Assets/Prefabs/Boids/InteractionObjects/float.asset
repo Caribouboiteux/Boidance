@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f353e1f15fe07b47b1dda1f26634a69, type: 3}
+  m_Name: float
+  m_EditorClassIdentifier: 
+  deviceCharacteristics: 64
+  regexName: System.Single
+  debugValue: 0.018
+  maskVector: {x: 1, y: 1, z: 1, w: 1}
+  valueFields:
+  - batteryLevel
+  - trigger
+  - grip
+  - indexFinger
+  - middleFinger
+  - ringFinger
+  - pinkyFinger
+  - indexTouch
+  - thumbTouch
+  propIndex: 1
